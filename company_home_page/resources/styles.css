@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding: 0;
+    font-family:Helvetica, Arial, sans-serif;
+ 
+}
+.breadcrumb{
+    display: inline-flex;
+    position: fixed;
+    width:100%;
+    justify-content: space-between;
+    background-color: rgb(190, 11, 8);
+    align-items: center;
+    flex-grow: 2;
+    flex-shrink: 3;
+    top:0;
+}
+
+nav img{
+    width: 5rem;
+}
+nav li,a{
+    list-style-type: none;
+    color:rgb(0, 0, 0);
+    font-weight: 100;
+}
+.wp img{
+    width: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+.wp{
+    display: flex;
+    background-image: url("../resources/images/vet-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:25rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+}
+.wp h1{
+    font-size: 3rem;
+    margin-top: 15%;
+    background-color: rgba(129, 231, 231, 0.2);
+    color:#7221a1;
+}
+
+.wp h5{
+    font-size: 1.75rem; 
+    background-color: rgba(129, 231, 231, 0.2);
+    color:#7221a1;
+}
+body,footer{
+    background-color: rgba(30, 105, 190, 0.349);
+}
+.contenido{
+    display:flex
+}
+.contenido{
+    flex-direction: column;
+    flex: 1 2 auto;
+    height: 100%;
+    justify-items: center;
+}
+.contenido img{
+    max-width: 40rem;
+    margin-left: 25%;
+}
+h2{
+    color:#ffffff;
+    background-color: rgba(9, 7, 126, 0.575);
+}
+.contenido p{
+    text-align: center;
+}
+
+.imagenes{
+    display:flex;
+    gap:5px;
+}
+
+.imagenes img{
+    max-width: 20rem;
+    max-height: 18rem;
+    flex-basis: 22rem;
+    
+}
+
+.staff{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    background-color: #ffffff00;
+    gap: 15px;
+}
+
+.staff img{
+    width: 300px;
+}
+.staff p{
+    width: 100%;
+}
+body h2, #equipo h4, footer div p, footer div , .staff p{
+    text-align: center;
+}
